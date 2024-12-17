@@ -1,19 +1,18 @@
 {
     "core": {
-        "version": "4.3.2.43194"
+        "version": "5.0.0.44547"
     },
     "opt": {
         "props": {
             "capabilities": [
                 "adc",
+                "anycloud",
                 "arduino",
-                "bsp_gen4",
-                "bsp_gen4",
+                "bsp_gen5",
                 "bt",
                 "capsense",
                 "capsense_button",
                 "capsense_linear_slider",
-                "cat1",
                 "cat1",
                 "cat1a",
                 "comp",
@@ -32,7 +31,6 @@
                 "low_power",
                 "lptimer",
                 "mcu_gp",
-                "mcu_gp",
                 "memory",
                 "memory_qspi",
                 "multi_core",
@@ -45,6 +43,7 @@
                 "rgb_led",
                 "rtc",
                 "sdhc",
+                "sdio",
                 "smart_io",
                 "spi",
                 "sram_1024k",
@@ -56,6 +55,7 @@
                 "wifi"
             ],
             "dependencies": {
+                "bt-fw-lai-cyw43439": "latest-v1.X",
                 "cat1cm0p": "latest-v1.X",
                 "core-lib": "latest-v1.X",
                 "core-make": "latest-v3.X",
